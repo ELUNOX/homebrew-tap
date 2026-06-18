@@ -1,25 +1,25 @@
 class Mochiflow < Formula
   desc "Spec-driven development engine that drives AI coding agents through discuss, plan, build, and ship."
   homepage "https://github.com/ELUNOX/mochiflow"
-  version "1.0.0-alpha.1"
+  version "1.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.0.0-alpha.1/mochiflow-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "3329841f131de710189a1571aae6e82a34889c6351b393e01d8e3ece8a69367e"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.1.1/mochiflow-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "9b93c9b47d944e6a85974339e9dd4b1f2dea22b4044426877ebfd5254708e612"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.0.0-alpha.1/mochiflow-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "5d72d6c20763f7312611ca569e686ee05826410e341c9b1debbcb42796dbbf50"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.1.1/mochiflow-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "4944f5e9f3f65b6834f285115ee1b3e33072d6d3277dc7a8e5ec6f5e6363dda1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.0.0-alpha.1/mochiflow-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "5c35da578872934364ceae2bcb407492efef5759a3de85a19ce762f99aec3f20"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.1.1/mochiflow-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "87c94d179dfdbcaa971edfb399e722d5022570240d2656522c83198cc1abef77"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.0.0-alpha.1/mochiflow-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "74929e38b4fa7c7d61212023809994964d3ab5725661aaa0e0d0cd47d336a04e"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.1.1/mochiflow-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "b5ec31c1d1ba4c46bae482be5415824f8d1cfa82c5141293bb6274590f839aae"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
