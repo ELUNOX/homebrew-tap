@@ -1,25 +1,25 @@
 class Mochiflow < Formula
   desc "Spec-driven development engine that drives AI coding agents through discuss, plan, build, and ship."
   homepage "https://github.com/ELUNOX/mochiflow"
-  version "1.2.0"
+  version "1.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.0/mochiflow-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "8844891d9d47c41c4b1071c3023645f6c800ce4d25e62609f83df83c2fae9b45"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.1/mochiflow-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "c07b0fb0e6d92fa7d84187e050882825066bac28bb01f572e007f1fc7341ea38"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.0/mochiflow-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "807e13532e5557bd7eca71616bf0de41bf8a0752ef576db06b4c1c91c878cdde"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.1/mochiflow-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "13bb2aba8ece7bf07cb0607e32f277974fa08ecbacb88b8a5af76b44a3ac6c73"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.0/mochiflow-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "cfb5cbd1bda20a8100f8599b595ad1ac7ab7d41491b1c9a83e99518381022e46"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.1/mochiflow-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "119453a97fa6f705e366af2f3dc4a2f1495542fe1c1e6da0e6213b4c4ccee21e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.0/mochiflow-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e34e9e36f35f57e1076323611baca6c1f58c62f1ede0f5f2ebd35843a93d342d"
+      url "https://github.com/ELUNOX/mochiflow/releases/download/v1.2.1/mochiflow-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "311d7a570e08a5dc1f0559486ed5af7e40a184feca0e5302ca006aa1b4f8e546"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
